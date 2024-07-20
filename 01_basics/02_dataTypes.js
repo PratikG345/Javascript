@@ -12,7 +12,6 @@ let isLoggedIn = true
 // null >= standalone value // null can be defined 
 // undefined => // undefined means the value is not assigned
 // symbol = uniqueness
-
 // object
 
 console.log(typeof age)
