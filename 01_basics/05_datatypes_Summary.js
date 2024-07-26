@@ -41,4 +41,9 @@ console.log(typeof myObj); // type of object is object
 console.log(typeof myFunction); // type of function is function
 console.log(typeof hero); // type of null is object
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primituve), Heap (Non-Primitive)
+
+
 
