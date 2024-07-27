@@ -1,3 +1,5 @@
+// ------------------------------------------------Datatypes Summary--------------------------------------
+
 //  # Primitive
 //      7 types: String, Number, Boolean, null,
 //               undefined, Symbol, BigInt
@@ -44,6 +46,3 @@ console.log(typeof hero); // type of null is object
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 // Stack(Primituve), Heap (Non-Primitive)
-
-
-
