@@ -1,15 +1,14 @@
 "use Strict"
-// let
-//let score = "33abc"
-//let score = "33abc"
+// let score = "33abc"
+// let score = "33abc"
 let score = undefined
 
-//console.log(typeof score);
-//console.log(typeof (score));
+console.log(typeof score);
+console.log(typeof (score));
 
 let valueInNumber = Number(score)
-//console.log(typeof valueInNumber);
-//console.log(valueInNumber);
+console.log(typeof valueInNumber);
+console.log(valueInNumber);
 
 /* 
 "33" => 33
@@ -17,9 +16,9 @@ let valueInNumber = Number(score)
 true => 1 false => 0
 undefined => NaN
 */
-// let isLoggedIn = undefined
-// let valueOfIsLoggedIn = Boolean(isLoggedIn)
-// console.log(valueOfIsLoggedIn)
+let isLoggedIn = undefined
+let valueOfIsLoggedIn = Boolean(isLoggedIn)
+console.log(valueOfIsLoggedIn)
 
 /*
 1 => true
@@ -33,8 +32,8 @@ undefined => false
 
 let someNumber = undefined
 let srtingNumber = String(someNumber)
-// console.log(srtingNumber);
-// console.log(typeof(srtingNumber));
+console.log(srtingNumber);
+console.log(typeof(srtingNumber));
 
 /*
 33 => 33
@@ -64,5 +63,6 @@ console.log(1 + "2") // 12
 console.log("1" + 2 + 2) // 122
 console.log("1" + (2 + 2)) // here first 2+2 becomes 4 then joints with 1
 console.log(1 + 2 + "2") // here 1+2 becomes 3 and joints with 2,  // 32
+
 
 
