@@ -62,5 +62,5 @@ console.log(Object.keys(tinderUser)); // object.keys : gives the keys of a parti
 console.log(Object.values(tinderUser)); // object.values : gives the values of a particular object
 console.log(Object.entries(tinderUser)); // object.entries : gives all keys and values of a particular object
 // console.log(typeof(Object.keys(tinderUser)));
-console.log(tinderUser.hasOwnProperty('Sammy')) // Vhecks whether an object has a following key
+console.log(tinderUser.hasOwnProperty('Sammy')) // Vhecks whether an object has a following keys
 
