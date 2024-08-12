@@ -57,10 +57,34 @@ const users = [
         email:  "j@gmail.com"
     }
 ]
-console.log(users[1].email);
-console.log(Object.keys(tinderUser)); // object.keys : gives the keys of a particular object
-console.log(Object.values(tinderUser)); // object.values : gives the values of a particular object
-console.log(Object.entries(tinderUser)); // object.entries : gives all keys and values of a particular object
+// console.log(users[1].email);
+// console.log(Object.keys(tinderUser)); // object.keys : gives the keys of a particular object
+// console.log(Object.values(tinderUser)); // object.values : gives the values of a particular object
+// console.log(Object.entries(tinderUser)); // object.entries : gives all keys and values of a particular object
 // console.log(typeof(Object.keys(tinderUser)));
-console.log(tinderUser.hasOwnProperty('Sammy')) // Vhecks whether an object has a following keys
+// console.log(tinderUser.hasOwnProperty('Sammy')) // Vhecks whether an object has a following keys
 
+// ----------------------------Object De- structure-------------------------------------------
+const course ={
+    courseName: 'JS',
+    price: '999',
+    courseInstructor: 'Pratik',
+}
+
+const {courseInstructor} = course
+const {courseName} = course
+const {price} = course
+// console.log(courseInstructor);
+// console.log(courseName);
+// console.log(price);
+
+// {
+//     "name" : "Pratik",
+//     "Age" : "22"
+// }
+
+[
+    {},
+    {},
+    {}
+]
